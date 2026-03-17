@@ -12,6 +12,9 @@
   <img src="https://img.shields.io/badge/Tailwind-3.4.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
   <img src="https://img.shields.io/badge/Playwright-1.58.2-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
 </p>
+
+</div>
+
 ---
 
 ## 📖 项目简介
