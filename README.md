@@ -1,6 +1,6 @@
 <div align="center">
 <img src="assets/banner.png" alt="Canvas Drop Submit Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
-# 🎓 SJTU-Canvas Drop Submit
+ 🎓 SJTU-Canvas Drop Submit
 
 > 每次交作业都要经历「满硬盘找文件 ➔ 手动重命名 ➔ 繁琐上传」的折磨？
 >
