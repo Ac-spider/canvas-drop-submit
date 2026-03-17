@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Banner Placeholder -->
-<img src="https://via.placeholder.com/800x200/3B82F6/FFFFFF?text=Canvas+Drop+Submit" alt="Canvas Drop Submit Banner" width="800">
+<!-- Banner -->
+<img src="pic/QQ截图20260317140152.png" alt="Canvas Drop Submit Banner" width="800">
 
 # 🎓 Canvas Drop Submit
 
@@ -83,10 +83,11 @@ npm run build:linux
 
 <div align="center">
 
-### 主界面
+### 主界面 - 四栏布局
+
 <img src="pic/QQ截图20260317140152.png" alt="主界面" width="800">
 
-*清晰的布局：课程列表 → 作业列表 → 课程文件 → 拖拽上传区*
+*清晰的四栏布局：课程列表 → 作业列表 → 课程文件 → 拖拽上传区*
 
 ### 课程列表与学期筛选
 
