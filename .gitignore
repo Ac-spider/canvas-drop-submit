@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+out/
+
+# Testing
+coverage/
+test-results.json
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Temporary files
+*.tmp
+*.temp
+srcrenderercomponentsAssignmentList.tsx.new
+
+# Large HTML files
+可拖拽排序的课程列表网页 - Gemini.html
+
+# Development files (saved web pages, large)
+html/
+
+# Documentation (keep in repo, but these are large)
+Gemini_files/
