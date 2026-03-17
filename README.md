@@ -1,7 +1,12 @@
 <div align="center">
 <img src="assets/banner.png" alt="Canvas Drop Submit Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
-
 # 🎓 SJTU-Canvas Drop Submit
+
+> 每次交作业都要经历「满硬盘找文件 ➔ 手动重命名 ➔ 繁琐上传」的折磨？
+>
+> 期末复习想下载课件，却只能对着屏幕一个个狂点，甚至连保存路径都不能自己选？
+>
+> 告别低效，是时候升级你的 Canvas 体验了！
 
 **一个专为简化 Canvas 学习管理系统作业提交流程而设计的跨平台桌面应用**
 
@@ -18,21 +23,19 @@
 ---
 
 ## 📖 项目简介
-每次交作业都要经历「满硬盘找文件 ➔ 手动重命名 ➔ 繁琐上传」的折磨？期末复习想下载课件，却只能对着屏幕一个个狂点，甚至连保存路径都不能自己选？
-告别低效，是时候升级你的 Canvas 体验了！
 **Canvas Drop Submit** 是一款基于 Electron + React + TypeScript 开发的桌面应用，专为简化 Canvas 学习管理系统的作业提交流程而设计。在上传文件过程中会调用浏览器，你最好在浏览器中安装自动登录JAccount的插件以获得更好体验：https://github.com/Ac-spider/captcha-auto-fill
 
 ### ✨ 核心特性
 
-| 特性 | 描述 |
-|------|------|
-| 🖱️ **拖拽上传** | 直接从文件夹拖拽文件到作业卡片，一键提交 |
-| 🔐 **安全存储** | API Token 使用加密存储，保护账户安全 |
+| 特性             | 描述                                                 |
+| ---------------- | ---------------------------------------------------- |
+| 🖱️ **拖拽上传**   | 直接从文件夹拖拽文件到作业卡片，一键提交             |
+| 🔐 **安全存储**   | API Token 使用加密存储，保护账户安全                 |
 | 🌐 **浏览器复用** | 通过 Playwright 复用现有浏览器登录状态，无需重复登录 |
-| 📝 **自动重命名** | 支持使用作业名称自动重命名文件 |
-| 🏷️ **学期筛选** | 智能学期解析，自动归类课程 |
-| 📊 **LaTeX 渲染** | 自动渲染作业描述中的数学公式 |
-| 🔄 **课程排序** | 支持拖拽排序课程列表，自动保存偏好 |
+| 📝 **自动重命名** | 支持使用作业名称自动重命名文件                       |
+| 🏷️ **学期筛选**   | 智能学期解析，自动归类课程                           |
+| 📊 **LaTeX 渲染** | 自动渲染作业描述中的数学公式                         |
+| 🔄 **课程排序**   | 支持拖拽排序课程列表，自动保存偏好                   |
 
 ---
 
@@ -262,16 +265,16 @@ const handleDrop = (e: DragEvent) => {
 
 ## 🛠️ 技术栈
 
-| 类别 | 技术 |
-|------|------|
-| **框架** | Electron 28, React 18, TypeScript 5 |
-| **构建** | electron-vite, Vite 5 |
-| **样式** | Tailwind CSS 3 |
-| **状态管理** | React Hooks |
-| **存储** | electron-store |
-| **自动化** | Playwright |
-| **测试** | Jest, React Testing Library |
-| **数学渲染** | KaTeX, react-markdown |
+| 类别         | 技术                                |
+| ------------ | ----------------------------------- |
+| **框架**     | Electron 28, React 18, TypeScript 5 |
+| **构建**     | electron-vite, Vite 5               |
+| **样式**     | Tailwind CSS 3                      |
+| **状态管理** | React Hooks                         |
+| **存储**     | electron-store                      |
+| **自动化**   | Playwright                          |
+| **测试**     | Jest, React Testing Library         |
+| **数学渲染** | KaTeX, react-markdown               |
 
 ---
 
