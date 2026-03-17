@@ -18,7 +18,8 @@
 ---
 
 ## 📖 项目简介
-
+每次交作业都要经历「满硬盘找文件 ➔ 手动重命名 ➔ 繁琐上传」的折磨？期末复习想下载课件，却只能对着屏幕一个个狂点，甚至连保存路径都不能自己选？
+告别低效，是时候升级你的 Canvas 体验了！
 **Canvas Drop Submit** 是一款基于 Electron + React + TypeScript 开发的桌面应用，专为简化 Canvas 学习管理系统的作业提交流程而设计。在上传文件过程中会调用浏览器，你最好在浏览器中安装自动登录JAccount的插件以获得更好体验：https://github.com/Ac-spider/captcha-auto-fill
 
 ### ✨ 核心特性
