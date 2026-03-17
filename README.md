@@ -1,27 +1,17 @@
 <div align="center">
+<img src="assets/banner.png" alt="Canvas Drop Submit Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
 
-<!-- Banner -->
-<img src="pic/QQ截图20260317140152.png" alt="Canvas Drop Submit Banner" width="800">
+# 🎓 SJTU-Canvas Drop Submit
 
-# 🎓 Canvas Drop Submit
-
-**简化 Canvas 作业提交流程的桌面应用**
+**一个专为简化 Canvas 学习管理系统作业提交流程而设计的跨平台桌面应用**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Electron-28.3.3-47848F?logo=electron&logoColor=white" alt="Electron">
-  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-5.3.0-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind-3.4.0-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Playwright-1.58.2-2EAD33?logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/Electron-28.3.3-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron">
+  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5.3.0-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind-3.4.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Playwright-1.58.2-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue" alt="Platform">
-</p>
-
-</div>
-
 ---
 
 ## 📖 项目简介
@@ -83,15 +73,15 @@ npm run build:linux
 
 <div align="center">
 
-### 主界面 - 四栏布局
+### 主界面
 
-<img src="pic/QQ截图20260317140152.png" alt="主界面" width="800">
+![image-20260317144112013](assets/image-20260317144112013.png)
 
 *清晰的四栏布局：课程列表 → 作业列表 → 课程文件 → 拖拽上传区*
 
 ### 课程列表与学期筛选
 
-<img src="pic/QQ截图20260317140227.png" alt="课程列表" width="400">
+<img src="assets/image-20260317144239159.png" alt="image-20260317144239159" style="zoom: 50%;" />
 
 *支持学期筛选和拖拽排序*
 
@@ -103,25 +93,21 @@ npm run build:linux
 
 ### 拖拽上传区域
 
-<img src="pic/QQ截图20260317140257.png" alt="拖拽上传" width="400">
+<img src="assets/image-20260317144318658.png" alt="image-20260317144318658" style="zoom:50%;" />
 
 *支持多文件拖拽，实时显示上传进度*
 
+*一键使用作业名称重命名提交文件*
+
 ### 文件管理与下载
 
-<img src="pic/QQ截图20260317140312.png" alt="文件管理" width="400">
+<img src="assets/image-20260317144354224.png" alt="image-20260317144354224" style="zoom:50%;" />
+
+<img src="assets/image-20260317144421971.png" alt="image-20260317144421971" style="zoom:50%;" />
 
 *便捷的课程文件浏览和下载功能*
 
-### 智能文件重命名
-
-<img src="pic/QQ截图20260317140337.png" alt="文件重命名" width="400">
-
-*一键使用作业名称重命名提交文件*
-
 ### 浏览器自动化提交
-
-<img src="pic/QQ截图20260317140519.png" alt="浏览器提交" width="400">
 
 *复用现有浏览器，自动完成登录和提交*
 
@@ -335,6 +321,6 @@ const handleDrop = (e: DragEvent) => {
 
 <div align="center">
 
-**Made with ❤️ by Canvas Drop Submit Team**
+**Made with ❤️ by LvxSeraph**
 
 </div>
