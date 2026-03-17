@@ -87,7 +87,7 @@ npm run build:linux
 
 ### 作业列表与 LaTeX 公式渲染
 
-<img src="pic/QQ截图20260317140249.png" alt="作业列表" width="400">
+<img src="assets/image-1.png" alt="作业列表" width="400">
 
 *自动渲染数学公式，支持作业描述预览*
 
