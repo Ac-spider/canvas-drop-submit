@@ -19,7 +19,7 @@
 
 ## 📖 项目简介
 
-**Canvas Drop Submit** 是一款基于 Electron + React + TypeScript 开发的桌面应用，专为简化 Canvas 学习管理系统的作业提交流程而设计。
+**Canvas Drop Submit** 是一款基于 Electron + React + TypeScript 开发的桌面应用，专为简化 Canvas 学习管理系统的作业提交流程而设计。在上传文件过程中会调用浏览器，你最好在浏览器中安装自动登录JAccount的插件：https://github.com/Ac-spider/captcha-auto-fill
 
 ### ✨ 核心特性
 
